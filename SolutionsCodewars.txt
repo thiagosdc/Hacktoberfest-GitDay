@@ -6,3 +6,12 @@ if(test !== 180){
 return (180 - test)
   }
 }
+
+7 kyuIs this a triangle?
+JavaScript:
+function isTriangle(a,b,c)
+{
+  let max = Math.max(a, b, c);
+  let sum = a + b + c;
+  return sum - max > max;
+}
